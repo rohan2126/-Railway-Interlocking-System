@@ -9,3 +9,18 @@ The Railway Interlocking System project aims to enhance the safety of railway op
 - Automated Track Switching**: Automatically switches tracks to prevent collisions.
 - Load Cell Integration**: Monitors train weight and speed using load cells for accurate decision-making.
 - Raspberry Pi Implementation**: Low-cost and efficient processing with Raspberry Pi.
+
+System Architecture
+
+The system architecture involves several components working together:
+ - Sensors: Load cells and other sensors detect train weight, speed, and position.
+ - Raspberry Pi: Processes sensor data, runs AI models, and makes decisions.
+ - Control Room Interface: Receives alerts and can manually intervene if needed.
+ - Track Switching Mechanism: Automatically switches tracks based on system decisions.
+
+Usage
+
+  - Model Training: Use the model_training.py script to train the AI model with your dataset or the provided sample data.
+  - System Deployment: Deploy the system on the Raspberry Pi by running the main.py script.
+  - Real-Time Monitoring: Monitor the system’s performance in real-time and respond to alerts as necessary.
+  - Track Switching: The system will automatically switch tracks if a collision threat is detected.
