@@ -1,4 +1,6 @@
-# Railway Interlocking System using AI, ML, and Raspberry Pi
+# Railway Interlocking System
+
+Railway Interlocking System using AI, ML, and Raspberry Pi
 
 ## Overview
 The Railway Interlocking System project aims to enhance the safety of railway operations by preventing derailments and collisions. This system leverages AI and machine learning algorithms, implemented on a Raspberry Pi with load cell integration, to automatically detect and signal potential hazards on railway tracks. The system provides real-time alerts to the control room and makes decisions on track switching to avoid accidents, thereby saving lives and reducing manual intervention.
